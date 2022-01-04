@@ -1,0 +1,17 @@
+table, th, td {
+    border-collapse: collapse;
+    padding: 0.3rem 0.5rem;
+}
+
+th, td {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+}
+
+tr td:first-child, tr th:first-child{
+    border-left: none;
+}
+
+table tr:last-child td{
+    border-bottom: none;
+}
